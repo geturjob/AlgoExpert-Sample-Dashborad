@@ -1,0 +1,565 @@
+.maindiv{
+    height: 100%;
+}
+.childdiv1{
+    height: 80%;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    flex-direction: row;
+}
+.childdiv11{
+    flex:1;
+    display: flex;
+}
+.childdiv111{
+    margin: auto;
+    color: white;
+    padding: 10px;
+}
+.childdiv12{
+    flex:1;
+    display: flex;
+    display: block;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+}
+.childdiv121{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.childdiv122{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+}
+#myDiv1 {
+    width: 170px;
+    height: 140px;
+    padding: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    background-color:rgb(3, 3, 95);
+    border: 2px solid lightblue;
+    animation: cssAnimation12 ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    transition: width 1s, height 1s;
+    opacity: 0;
+    transform: matrix(1, -0.1, -0.1, 1, 45, 35);
+  }
+
+  #myDiv2{
+    width: 170px;
+    height: 140px;
+    /* flex: 1; */
+    padding: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    background-color:rgb(3, 3, 95);
+    border: 2px solid lightblue;
+    animation: cssAnimation12 ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: width 1s, height 1s;
+    transform: matrix(1, -0.1, -0.1, 1, 55,10);   
+  }
+
+  #myDiv3 {
+    width: 190px;
+    height: 130px;
+    /* flex: 1; */
+    padding: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    background-color:rgb(3, 3, 95);
+    border: 2px solid lightblue;
+    animation: cssAnimation34 ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: width 1s, height 1s;
+    transform: matrix(1, -0.1, -0.1, 1, 25, 45);
+  }
+
+  #myDiv4 {
+    width: 190px;
+    height: 130px;
+    padding: 4px 4px 4px 4px;
+    box-sizing: border-box;
+    /* flex: 1; */
+    background-color:rgb(3, 3, 95);
+    border: 2px solid lightblue;
+    animation: cssAnimation34 ease-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+    transition: width 1s, height 1s;
+    transform: matrix(1, -0.1, -0.1, 1, 35, 20);
+  }
+
+  .myDiv11{
+      width: 100%;
+      height: 40px;
+      background-color: lightblue;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+  }
+  .divButton{
+      position: absolute;
+      right: 2px;
+  }
+
+  .test1{
+      height: 20px;
+      width: 20px;
+      background-color:rgb(5, 5, 63);
+      margin-top: 2px;
+      border-radius: 10px;
+      animation: test1 ease 1s;
+      animation-fill-mode: forwards;
+      animation-delay: 2s;
+      opacity: 0;
+      transition: width 0.5s;
+  }
+
+  @keyframes test1{
+      0%{
+        opacity: 0;
+      }
+      100%{
+          opacity: 1;
+          width: 60px;
+      }
+  }
+
+  .test2{
+    height: 20px;
+    width: 20px;
+    background-color:rgb(5, 5, 63);
+    margin-top: 2px;
+    border-radius: 10px;
+    animation: test2 ease 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    transition: width 0.5s;
+}
+
+@keyframes test2{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 230px;
+    }
+}
+
+.test3{
+    height: 20px;
+    width: 20px;
+    background-color:rgb(5, 5, 63);
+    margin-top: 2px;
+    border-radius: 10px;
+    animation: test3 ease 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    transition: width 0.5s;
+}
+
+@keyframes test3{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 100px;
+    }
+}
+
+.test4{
+    height: 20px;
+    width: 20px;
+    background-color:rgb(5, 5, 63);
+    margin-top: 2px;
+    border-radius: 10px;
+    animation: test4 ease 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+    transition: width 0.5s;
+}
+
+@keyframes test4{
+    0%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 200px;
+    }
+}
+  .test5{
+    height: 50px;
+    width: 250px;
+    background-color:rgb(5, 5, 63);
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    animation: test5 ease 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    opacity: 0;
+  }
+
+  @keyframes test5 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+
+  .test6{
+    height: 50px;
+    width: 250px;
+    background-color:rgb(5, 5, 63);
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    animation: test6 ease 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    opacity: 0;
+  }
+
+  @keyframes test6 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+
+  .test55{
+      height: 20px;
+      width: 250px;
+      background-color: rgb(3, 88, 3);
+  }
+  .test7{
+     height: 15px;
+     width: 40px;
+     display: flex;
+     margin-top: 10px;
+     justify-content: space-between;
+     animation: test7 ease 0.5s;
+     animation-delay: 1s;
+     animation-fill-mode: forwards;
+     opacity: 0;
+     transition: width 1s;
+  }
+
+  @keyframes test7 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 200px;
+    }
+  }
+  .test77{
+    width: 22%;
+    background-color: rgb(9, 160, 9);
+    border-radius: 6px;
+  }
+  .test78{
+    width: 22%;
+    background-color: rgb(187, 202, 187);
+    border-radius: 6px;
+  }
+  .test79{
+    width: 22%;
+    background-color: rgb(155, 28, 123);
+    border-radius: 6px;
+  }
+  .test710{
+    width: 30%;
+    background-color: rgb(160, 177, 13);
+    border-radius: 6px;
+  }
+  .test8{
+     height: 15px;
+     width: 40px;
+     margin-left: 20px;
+     margin-top: 15px;
+     display: flex;
+     justify-content: space-between;
+     animation: test8 ease 0.5s;
+     animation-delay: 1.5s;
+     animation-fill-mode: forwards;
+     opacity: 0;
+     transition: width 1s;
+  }
+  @keyframes test8 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 200px;
+    }
+  }
+  .test87{
+    width: 30%;
+    background-color: rgb(9, 160, 9);
+    border-radius: 6px;
+  }
+  .test88{
+    width: 22%;
+    background-color: rgb(187, 202, 187);
+    border-radius: 6px;
+  }
+  .test89{
+    width: 25%;
+    background-color: rgb(155, 28, 123);
+    border-radius: 6px;
+  }
+  .test810{
+    width: 21%;
+    background-color: rgb(160, 177, 13);
+    border-radius: 6px;
+  }
+
+  .test9{
+    height: 15px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    animation: test9 ease 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: width 1s;
+ }
+ @keyframes test9 {
+   0%{
+       opacity: 0;
+   }
+   100%{
+       opacity: 1;
+       width: 200px;
+   }
+ }
+ .test97{
+   width: 30%;
+   background-color: rgb(9, 160, 9);
+   border-radius: 6px;
+ }
+ .test98{
+   width: 22%;
+   background-color: rgb(187, 202, 187);
+   border-radius: 6px;
+ }
+ .test99{
+   width: 25%;
+   background-color: rgb(155, 28, 123);
+   border-radius: 6px;
+ }
+ .test910{
+   width: 21%;
+   background-color: rgb(160, 177, 13);
+   border-radius: 6px;
+ }
+
+ .test10{
+  height: 15px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  animation: test10 ease 0.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transition: width 1s;
+}
+@keyframes test10 {
+ 0%{
+     opacity: 0;
+ }
+ 100%{
+     opacity: 1;
+     width: 150px;
+ }
+}
+.test107{
+ width: 30%;
+ background-color: rgb(9, 160, 9);
+ border-radius: 6px;
+}
+.test108{
+ width: 22%;
+ background-color: rgb(187, 202, 187);
+ border-radius: 6px;
+}
+.test109{
+ width: 25%;
+ background-color: rgb(155, 28, 123);
+ border-radius: 6px;
+}
+.test1010{
+ width: 21%;
+ background-color: rgb(160, 177, 13);
+ border-radius: 6px;
+}
+
+.test11{
+  height: 15px;
+  width: 40px;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 30px;
+  justify-content: space-between;
+  animation: test11 ease 0.5s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  transition: width 1s;
+}
+
+@keyframes test11 {
+ 0%{
+     opacity: 0;
+ }
+ 100%{
+     opacity: 1;
+     width: 200px;
+ }
+}
+.test117{
+ width: 22%;
+ background-color: rgb(9, 160, 9);
+ border-radius: 6px;
+}
+.test118{
+ width: 22%;
+ background-color: rgb(187, 202, 187);
+ border-radius: 6px;
+}
+.test119{
+ width: 22%;
+ background-color: rgb(155, 28, 123);
+ border-radius: 6px;
+}
+.test1110{
+ width: 30%;
+ background-color: rgb(160, 177, 13);
+ border-radius: 6px;
+}
+  @keyframes cssAnimation12 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 280px; height: 230px;
+    }
+  }
+
+  .test12{
+    height: 50px;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(5, 5, 63);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    animation: test12 ease 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    opacity: 0;
+  }
+
+  @keyframes test12{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .test127{
+    width: 210px;
+    height: 5px;
+    background-color: rgb(14, 167, 14);
+    margin-top: 17px;
+  }
+
+  .test13{
+    height: 50px;
+    width: 220px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(5, 5, 63);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    animation: test13 ease 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    opacity: 0;
+  }
+  .test137{
+    width: 210px;
+    height: 5px;
+    background-color: rgb(146, 16, 16);
+    margin-top: 17px;
+  }
+  @keyframes test13{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  .spinner{
+    border: 1px solid #f3f3f3;
+    width: 130px;
+    height: 30px;
+    border-radius: 10%;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    background-color: rgb(3, 3, 59);
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  @keyframes cssAnimation34 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 280px; height: 190px;
+    }
+  }
+
+  @media (max-width:800px){
+    .childdiv12{
+        display:none;
+    }
+  }

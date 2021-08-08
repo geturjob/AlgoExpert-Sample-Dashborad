@@ -1,0 +1,24 @@
+.firstdiv{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 20px;
+}
+.seconddiv{
+    width: 80%;
+    margin: auto;
+}
+
+.sectionTitle{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.owl-carousel .owl-nav .owl-prev::before{
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+}
+.owl-carousel .owl-nav .owl-next::before{
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+}

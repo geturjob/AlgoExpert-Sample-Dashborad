@@ -1,0 +1,37 @@
+<mat-toolbar class="navtoolbar">
+      <mat-icon class="menuIcon" (click)="showNav()">menu</mat-icon>
+    <div class="iconspinner">
+      <img src="../assets/star.png"/>
+      <span class="example"></span>
+      <span class="pe">Prog Expert</span>
+    </div>
+    <div class="maindiv">
+      <span class="navMenu-item" [routerLink]="['dashboard']" routerLinkActive="active">What is ProgExpert</span>
+      <span class="navMenu-item" [routerLink]="['systemdash']">What is SystemExpert</span>
+      <span class="navMenu-item" [routerLink]="['dashboard']">Meet the Team</span>
+      <span class="navMenu-item" [routerLink]="['dashboard']">Content</span>
+      <span class="navMenu-item1" [routerLink]="['dashboard']">Purchase</span>
+    </div>
+      <span class="example"></span>
+      <a class="navLogin">Log In</a>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" [(opened)]="openedMenu">
+    <mat-icon mat-icon-button class="closeic" (click)="showNav()">close</mat-icon>
+    <mat-list>
+      <mat-list-item [routerLink]="['dashboard']" class="navMenu-item1" (click)="showNav()">What is ProgExpert</mat-list-item>
+      <mat-list-item  [routerLink]="['systemdash']" class="navMenu-item1" (click)="showNav()">What is SystemExpert</mat-list-item>
+      <mat-list-item class="navMenu-item1" (click)="showNav()">Meet the Team</mat-list-item>
+      <mat-list-item class="navMenu-item1" (click)="showNav()">Content</mat-list-item>
+      <mat-list-item class="navMenu-item1" (click)="showNav()">Purchase</mat-list-item>
+  </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<div class="footer">
+    <span>Just for Fun : Somnath Singh</span>
+</div>

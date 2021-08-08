@@ -1,0 +1,43 @@
+.maindiv{
+    height: 100%;
+}
+.childdiv1{
+    height: 80%;
+    background-color: rgb(5, 5, 63);
+    display: flex;
+    flex-direction: row;
+}
+.childdiv11{
+    flex:1;
+    display: flex;
+}
+.childdiv12{
+    flex:1;
+    display: flex;
+}
+.childdiv111{
+    margin: auto;
+    color: white;
+}
+.childdiv121{
+    flex: 1;
+    background-color: rgb(5, 5, 63);
+}
+.myDiv1 {
+    width: 340px;
+    height: 280px;
+    padding: 10px 4px 4px 10px;
+    box-sizing: border-box;
+    background-color:rgb(5, 5, 63);
+    transform: matrix(1, -0.1, -0.1, 1, 210, 65);
+    border: 1px solid rgb(5, 5, 63);
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+
+  @media (max-width:1000px) {
+      .childdiv12{
+          display: none;
+      }
+  }

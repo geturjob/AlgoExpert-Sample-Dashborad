@@ -1,0 +1,55 @@
+.firstdiv{
+    background-color:whitesmoke;
+    display: flex;
+}
+.firstdiv1{
+    width: 80%;
+    margin: auto;
+}
+.seconddiv
+{
+    margin-top: 6%;
+    display: flex;
+ }
+.seconddiv1{
+    margin: auto;
+    text-align: center;
+}
+
+.thirddiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.thirddiv1{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thirddiv1:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(2, 2, 41);
+    box-shadow: rgb(3, 50, 66);
+    color:rgb(34, 12, 238);
+}
+.maticondiv:hover{
+    font-size: 40px;
+    color:rgb(34, 12, 238);
+}
+@media only screen and (min-width:800px){
+    .thirddiv{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .thirddiv1{
+        width: 30%;
+    }
+}

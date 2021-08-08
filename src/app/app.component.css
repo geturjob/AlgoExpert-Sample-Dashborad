@@ -1,0 +1,117 @@
+.navLogin{
+    color: white;
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navMenu-item{
+    color: white;
+    margin-right: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.navMenu-item1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.example{
+    flex: 1 1 auto;
+}
+.iconspinner{
+    margin-left: 2.5%;
+    color: white;
+}
+mat-icon
+{
+    font-size: 40px;
+    color: white;
+}
+.closeic{
+    position: absolute;
+    right:5px;
+    font-size: 30px;
+    color:white
+}
+.closeic:hover{
+    cursor: pointer;
+}
+mat-toolbar{
+    background-color: rgb(6, 6, 36);
+    width: 100%;
+}
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: width 2s, height 2s, transform 2s;
+    margin-top: 10px;
+}
+  img:hover {
+    width: 35px;
+    height: 35px;
+    transform: rotate(360deg);
+  }
+
+  mat-sidenav{
+      background-color: rgb(8, 17, 66);
+  }
+
+mat-sidenav-container{
+    height: 92%;
+}
+.pe{
+    margin-left: 10px;
+}
+.maindiv{
+    position: absolute;
+    margin-left: 20%;
+    display: block;
+}
+
+.menuIcon:hover{
+    cursor: pointer;
+    box-shadow: darkblue;
+}
+
+.menuIcon{
+    display: none;
+}
+.navMenu-item:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+.navMenu-item:active{
+    border-bottom: 1px solid white;
+}
+.active{
+    border-bottom: 1px solid white;
+}
+@media only screen and (max-width:1040px)
+{
+    .menuIcon{
+            display: block;
+    }
+    .maindiv{
+        display: none;
+    }
+    .iconspinner{
+        position: absolute;
+        right: 30%;
+    }
+    .navLogin{
+        margin-right: 1px;
+    }
+}
+
+.footer{
+    height: 70px;
+    display: flex;
+    text-align: center;
+    background-color: white
+}
+
+.footer span{
+    margin: auto;
+    color:rgb(20, 20, 78);
+}

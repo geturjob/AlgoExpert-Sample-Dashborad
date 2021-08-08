@@ -1,0 +1,28 @@
+<div class="firstdiv">
+    <div class="seconddiv">
+        <div class="seconddiv1">
+            <h2>130 Questions Spanning 15 Categories.</h2>
+
+            <p>If you want to ace the coding interviews, being well-versed in all common data structures and popular
+                problem-solving methods is paramount.</p>
+            <p>With 130 questions spanning 15 categories and 4 difficulty levels, we've got you covered.</p>
+            <button mat-raised-button color="primary">Explore Questions</button>
+        </div>
+    </div>
+    <div class="thirddiv">
+        <div class="thirddiv1">
+            <div *ngFor="let op of datalist">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p>{{op.name}}</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>{{op.value}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

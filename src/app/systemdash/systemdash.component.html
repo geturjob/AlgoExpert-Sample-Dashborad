@@ -1,0 +1,30 @@
+<div class="maindiv">
+    <div class="childdiv1">
+        <div class="childdiv11">
+            <div class="childdiv111">
+                <h1>System Expert</h1>
+                <p>The ultimate resource to prepare for coding interviews.</p>
+                <p>Everything you need, in one streamlined platform.</p>
+                <button mat-raised-button color="warn">Explore Prog Expert</button>
+            </div>
+        </div>
+        <div class="childdiv12">
+            <div class="childdiv121">
+                <div class="myDiv1">
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-template carouselSlide *ngFor="let tp of datalist; let i= index">
+                            <mat-card class="example-card">
+                                <mat-card-content>
+                                    <img src={{tp.url}}/>
+                                    <p>{{tp.name}}</p>
+                                </mat-card-content>
+                                <mat-card-actions>
+                                </mat-card-actions>
+                            </mat-card>
+                        </ng-template>
+                    </owl-carousel-o>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
