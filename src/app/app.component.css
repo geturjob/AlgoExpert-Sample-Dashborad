@@ -37,7 +37,7 @@ mat-icon
     cursor: pointer;
 }
 mat-toolbar{
-    background-color: rgb(6, 6, 36);
+    background-color: rgb(109,25,60);
     width: 100%;
 }
 img{
@@ -54,11 +54,11 @@ img{
   }
 
   mat-sidenav{
-      background-color: rgb(8, 17, 66);
+      background-color: rgb(109,25,60);
   }
 
 mat-sidenav-container{
-    height: 92%;
+    /* height: 76%; */
 }
 .pe{
     margin-left: 10px;
@@ -71,7 +71,7 @@ mat-sidenav-container{
 
 .menuIcon:hover{
     cursor: pointer;
-    box-shadow: darkblue;
+    box-shadow: rgb(92, 30, 56);
 }
 
 .menuIcon{
@@ -108,10 +108,10 @@ mat-sidenav-container{
     height: 70px;
     display: flex;
     text-align: center;
-    background-color: white
+    background-color: rgb(5, 5, 63);
 }
 
 .footer span{
     margin: auto;
-    color:rgb(20, 20, 78);
+    color:white;
 }

@@ -1,17 +1,17 @@
 <div class="firstdiv">
     <div class="seconddiv">
+        <h2>Our valuable employees</h2>
         <owl-carousel-o [options]="customOptions">
             <ng-template carouselSlide *ngFor="let tp of datalist; let i= index">
                 <mat-card class="example-card">
                     <mat-card-header>
-                        <div mat-card-avatar class="example-header-image"></div>
                         <mat-card-title>{{tp.name}}</mat-card-title>
                         <mat-card-subtitle>Data Engineer</mat-card-subtitle>
                     </mat-card-header>
-                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                    <img src="https://material.angular.io/assets/img/examples/shiba2.jpg"
                         alt="Photo of a Shiba Inu">
                     <mat-card-content>
-                        <p>
+                        <p class="data">
                             The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
                             Japan.
                             A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was

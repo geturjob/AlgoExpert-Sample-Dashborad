@@ -50,12 +50,12 @@
   }
   
   .flip-card-front {
-    background-color:rgb(6, 6, 49);
+    background-color:rgb(109,25,60);
     color: white;
   }
   
   .flip-card-back {
-    background-color: rgb(6, 6, 49);
+    background-color: rgb(66, 77, 22);
     color: white;
     transform: rotateX(180deg);
   }

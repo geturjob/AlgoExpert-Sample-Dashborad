@@ -2,11 +2,17 @@
     width: 100%;
     box-sizing: border-box;
     display: flex;
-    padding-top: 20px;
+    padding: 20px;
+    background-color: rgb(228, 227, 227);
 }
 .seconddiv{
     width: 80%;
     margin: auto;
+    text-align: center;
+}
+
+.seconddiv h2{
+    color: rgb(109,25,60);
 }
 
 .sectionTitle{
@@ -15,6 +21,28 @@
     text-align: center;
 }
 
+.example-card{
+    background-color: rgb(109,25,60);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mat-card-subtitle{
+    color: white;
+}
+
+.img{
+    width: 100%;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 .owl-carousel .owl-nav .owl-prev::before{
     background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');

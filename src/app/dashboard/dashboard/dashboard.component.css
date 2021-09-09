@@ -3,7 +3,7 @@
 }
 .childdiv1{
     height: 80%;
-    background-color: rgb(5, 5, 63);
+    background-color: rgb(109,25,60);
     display: flex;
     flex-direction: row;
 }
@@ -40,8 +40,8 @@
     height: 140px;
     padding: 4px 4px 4px 4px;
     box-sizing: border-box;
-    background-color:rgb(3, 3, 95);
-    border: 2px solid lightblue;
+    background-color:rgb(92, 30, 56);
+    /* border: 2px solid rgb(92, 30, 56); */
     animation: cssAnimation12 ease-out 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -57,8 +57,8 @@
     /* flex: 1; */
     padding: 4px 4px 4px 4px;
     box-sizing: border-box;
-    background-color:rgb(3, 3, 95);
-    border: 2px solid lightblue;
+    background-color:rgb(92, 30, 56);
+    /* border: 2px solid rgb(92, 30, 56); */
     animation: cssAnimation12 ease-out 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -72,8 +72,8 @@
     /* flex: 1; */
     padding: 4px 4px 4px 4px;
     box-sizing: border-box;
-    background-color:rgb(3, 3, 95);
-    border: 2px solid lightblue;
+    background-color:rgb(92, 30, 56);
+    /* border: 2px solid rgb(92, 30, 56); */
     animation: cssAnimation34 ease-out 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -87,8 +87,8 @@
     padding: 4px 4px 4px 4px;
     box-sizing: border-box;
     /* flex: 1; */
-    background-color:rgb(3, 3, 95);
-    border: 2px solid lightblue;
+    background-color:rgb(92, 30, 56);
+    /* border: 2px solid rgb(92, 30, 56); */
     animation: cssAnimation34 ease-out 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -101,10 +101,11 @@
   .myDiv11{
       width: 100%;
       height: 40px;
-      background-color: lightblue;
+      background-color: rgb(92, 30, 56);
       position: absolute;
       top: 0px;
       right: 0px;
+      color: white;
   }
   .divButton{
       position: absolute;

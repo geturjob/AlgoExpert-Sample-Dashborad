@@ -14,6 +14,8 @@
 .seconddiv1{
     margin: auto;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .thirddiv{
@@ -21,6 +23,8 @@
     flex-direction: column;
     width: 100%;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .thirddiv1{
@@ -30,13 +34,13 @@
     text-align: center;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 .thirddiv1:hover{
     background-color: white;
     cursor: pointer;
-    border: 1px solid rgb(2, 2, 41);
-    box-shadow: rgb(3, 50, 66);
-    color:rgb(34, 12, 238);
+    transform: scale(1.05);
 }
 .maticondiv:hover{
     font-size: 40px;
